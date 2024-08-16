@@ -1,4 +1,5 @@
 my_string=input("Введите пожалуйста строку: ")
+print(len(my_string))
 print("Данная строка в высоком регистре: ",my_string.upper())
 print("Данная строка в нижнем регистре: ",my_string.lower())
 print("Данная строка без пробелов: ",my_string.replace(" ",""))
